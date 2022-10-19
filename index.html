@@ -10,6 +10,8 @@
     <!-- * Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- * Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- * Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -64,7 +66,7 @@
             <p class="text-secondary">No credit card required*</p>
           </div>
           <div class="col-12 col-md-6">
-            <img src="./Images/head.png" alt="Main image" class="img-fluid">
+            <img src="./Images/head.png" alt="Main image" class="img-fluid home__image">
           </div>
         </div>
       </div>
@@ -85,7 +87,7 @@
             </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-10 offset-1 col-md-4 offset-md-0 mb-3 mb-md-0 mx-0">
             <div class="card border-0 p-5 px-md-1 py-md-2 p-lg-5 text-sm-start about_card-1">
               <img src="./Images/cat1.png" class="card-img-top about_card-image" alt="Card image" />
@@ -162,7 +164,7 @@
 
     <!-- ! Results -->
     <section class="results">
-      <div class="container-md text-center">
+      <div class="container text-center">
         <h5>Our results</h5>
         <h1 class="mb-5">Our awesome results worth displaying</h1>
         <div class="row">
@@ -190,6 +192,275 @@
       </div>
     </section>
     <!-- ! /Results -->
+
+    <!-- ! Reviews -->
+    <section class="reviews my-5">
+      <div class="container reviews__container">
+        <div class="row">
+          <div class="col-12 col-md-4 mb-5 mb-md-0">
+            <h2>Stories from our customers</h2>
+            <p class="text-secondary">
+              When you get staright to the point the presentation looks attractive.
+            </p>
+          </div>
+          <!-- * Carousel  -->
+          <div class="col-12 col-md-6 offset-md-1">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <!-- ? Carousel item 1 -->
+                <div class="carousel-item active">
+                  <div>
+                    <p class="text-secondary lh-lg">
+                      <img src="./Images/svg/quote.svg" alt="Quote svg" class="reviews__quote-image" />
+                      Pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. We use Connect for key for easy and seamless weekly communication with our clients.
+                    </p>
+                  </div>
+                  <div class="d-flex align-items-center mt-4">
+                    <img src="./Images/rev.png" alt="person image" class="reviews__person-image" />
+                    <div class="ps-2">
+                      <p class="mb-1">
+                        <strong>Marty McFly</strong>
+                      </p>
+                      <p class="mb-0 text-secondary">
+                        Head of OP,
+                        <a href="#!" class="text-decoration-none">Future LLC</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- ? /Carousel item 1 -->
+
+                <!-- ? Carousel item 2 -->
+                <div class="carousel-item">
+                  <div>
+                    <p class="text-secondary lh-lg">
+                      <img src="./Images/svg/quote.svg" alt="Quote svg" class="reviews__quote-image" />
+                      Pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. We use Connect for key for easy and seamless weekly communication with our clients and.
+                    </p>
+                  </div>
+                  <div class="d-flex align-items-center mt-4">
+                    <img src="./Images/rev2.png" alt="person image" class="reviews__person-image" />
+                    <div class="ps-2">
+                      <p class="mb-1">
+                        <strong>Dr. Strange</strong>
+                      </p>
+                      <p class="mb-0 text-secondary">
+                        CTO,
+                        <a href="#!" class="text-decoration-none">Arma Systems</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- ? /Carousel Item 2 -->
+
+                <!-- ? Carousel item 3 -->
+                <div class="carousel-item">
+                  <div>
+                    <p class="text-secondary lh-lg">
+                      <img src="./Images/svg/quote.svg" alt="Quote svg" class="reviews__quote-image" />
+                      We use Connect for key for easy and seamless weekly communication with our clients. Pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    </p>
+                  </div>
+                  <div class="d-flex align-items-center mt-4">
+                    <img src="./Images/rev3.png" alt="person image" class="reviews__person-image" />
+                    <div class="ps-2">
+                      <p class="mb-1">
+                        <strong>John Kennedy</strong>
+                      </p>
+                      <p class="mb-0 text-secondary">
+                        Manager Sales,
+                        <a href="#!" class="text-decoration-none">Optima Corp</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- ? /Carousel Item 3 -->
+              </div>
+            </div>
+          </div>
+          <!-- * Carousel  -->
+        </div>
+      </div>
+    </section>
+    <!-- ! /Reviews -->
+
+    <!-- ! Pricing -->
+    <section class="pricing my-5">
+      <div class="container text-center">
+        <h1>Simple & Affordable Pricing.</h1>
+        <p class="mb-5 text-secondary">
+          Our plans are designed to meet the requirements of both beginners
+          and players. Get the right plan that suits you.          
+        </p>
+        <div class="row justify-content-evenly">
+          <div class="col-12 offset-md-1 col-md-5 mb-4 mb-md-0">
+            <div class="card border-0 p-5 pricing__card">
+              <div class="card-body">
+                <h2 class="card-title">Basic Free</h2>
+                <p class="text-secondaru">Limited features</p>
+                <img src="./Images/f1.png" alt="Basic Free" class="pricing__card-image" />
+                <p class="card-text">
+                  <p class="fs-1 fw-light mb-0">Free</p>
+                  <p>One year</p>
+                </p>
+                <a href="#!" class="btn btn-success text-uppercase">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="card border-0 p-5 pricing__card">
+              <div class="card-body">
+                <h2 class="card-title">Premium</h2>
+                <p class="text-secondaru">Unlimited Lifetime</p>
+                <img src="./Images/f3.png" alt="Basic Free" class="pricing__card-image" />
+                <p class="card-text">
+                  <p class="fs-1 fw-light mb-0">$99.99</p>
+                  <p>Lifetime</p>
+                </p>
+                <a href="#!" class="btn btn-outline-primary text-uppercase">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-5">* Refund requests can be accepted with in 10 days of the purchase.</p>
+    </section>
+    <!-- ! /Pricing -->
+
+    <!-- ! FAQ -->
+    <section class="faq my-5">
+      <div class="container faq__container">
+        <h1>Frequently Asked Queries</h1>
+        <p>Pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+        <p>
+          Still have questions?
+          <a href="#!" class="text-decoration-none">Contact us</a>
+        </p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header  faq__question" id="flush-headingOne">
+                  <button class="accordion-button collapsed faq__accordion" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    What is Connect?
+                  </button>
+                </h2>
+                <div  id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header faq__question" id="flush-headingTwo">
+                  <button class="accordion-button collapsed faq__accordion" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                    How much does template cost?
+                  </button>
+                </h2>
+                <div  id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header faq__question" id="flush-headingThree">
+                  <button class="accordion-button collapsed faq__accordion" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                    How can updates be downloaded?
+                  </button>
+                </h2>
+                <div  id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header faq__question" id="flush-headingFour">
+                  <button class="accordion-button collapsed faq__accordion" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                    Some other Support related queries.
+                  </button>
+                </h2>
+                <div  id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ! /FAQ -->
+
+    <!-- ! Start trail -->
+    <section class="start-trail">
+      <div class="container text-center mb-5">
+        <div class="row">
+          <div class="col-11 offset-1 col-md-6 offset-md-3">
+            <h6 class="text-success text-uppercase">start your trail</h6>
+            <h2>Connect is made just for you. Ready to build your next project?</h2>
+          </div>
+          <div class="col-11 offset-1 col-md-6 offset-md-3 mt-3">
+            <div class="input-group mb-3 px-5">
+              <input type="text" class="form-control py-3 px-5" placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-success text-uppercase py-3 px-5" type="button" id="button-addon2">sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! /Start trail -->
+
+    <!-- ! Footer -->
+    <footer>
+      <nav class="navbar navbar-light footer__nav py-3">
+        <div class="container justify-content-between text-center">
+          <a href="#!" class="navbar-brand text-uppercase footer__brand text-success">connect.</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row mx-md-0">
+            <div class="nav-item">
+              <a href="#!" class="nav-link" aria-current="page">About</a>
+            </div>
+            <div class="nav-item">
+              <a href="#!" class="nav-link">Privacy</a>
+            </div>
+            <div class="nav-item">
+              <a href="#!" class="nav-link">Terms</a>
+            </div>
+            <div class="nav-item">
+              <a href="#!" class="nav-link">Contact</a>
+            </div>
+          </ul>
+          <div class="d-flex mx-auto mx-md-0">
+            <a href="#!" class="ms-3 text-success">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#!" class="ms-3 text-success">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#!" class="ms-3 text-success">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#!" class="ms-3 text-success">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <!-- ! /Footer -->
 
     <!-- * Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

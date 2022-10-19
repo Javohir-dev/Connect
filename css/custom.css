@@ -1,12 +1,13 @@
-/* @media (min-width:1400px) {
+@media (min-width:1400px) {
   .container {
     max-width: 1000px;
   }
-} */
+}
 /* ! Main Style */
 :root {
   --lightblue: #f0f5f9;
 }
+
 
 /* ! Mixed classes */
 .about_card-image, .results__card-image {
@@ -34,6 +35,10 @@
   background-color: var(--lightblue);
 }
 
+img.home__image {
+  width: 100%;
+}
+
 /* ! About */
 .about_card-1 {
   background-color: #fff2e5;
@@ -49,7 +54,71 @@
 
 /* ! Features */
   .features__container {
+    border-radius: 1rem;
     background-color: var(--lightblue);
-  }
+}
 
 /* ! Results */
+
+/* ! Reviews */
+.reviews__container {
+  padding: 100px 50px;
+  border-radius: 1rem;
+  background-color: var(--lightblue);
+}
+
+.reviews__quote-image {
+  width: 60px;
+}
+
+.reviews__person-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* ! Pricing */
+.pricing__card {
+  background-color: var(--lightblue);
+}
+
+.pricing__card-image {
+  width: 120px;
+}
+
+/* ! FAQ */
+.faq__container {
+  padding: 100px 50px;
+  border-radius: 1rem;
+  background-color: var(--lightblue);
+}
+
+.faq__question {
+  border-bottom: .5px solid #ccc;
+}
+
+.faq__accordion {
+  background-color: var(--lightblue);
+}
+
+.accordion-item {
+  background-color: var(--lightblue);
+}
+
+.accordion-button:focus {
+  border: var(--lightblue);
+  box-shadow: var(--lightblue);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+  background-color: var(--lightblue);
+  box-shadow: none;
+}
+/* ! Footer */
+.footer__nav {
+  background-color: var(--lightblue);
+}  
+
+.footer__brand {
+  letter-spacing: .5rem;
+}
